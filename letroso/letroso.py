@@ -59,7 +59,6 @@ print('\033[42m  \033[m = letra correta na posição correta')
 print('\033[43m  \033[m = letra correta na posição incorreta\n')
 print("-=-"*20)
 
-print(secreta_display)
 while True:
     chute_display, chute_logica = palpite()
     print('.'*60)
